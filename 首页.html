@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo</title>
+	<link rel="stylesheet" type="text/css" href="cs.css">
+</head>
+<body>
+<div id="container">
+  <nav>
+	<div id="a">
+		<span><a href="#" onclick="showDiv('div1')" class="a">网络服务费</a></span>
+		<span><a href="#" onclick="showDiv('div5')" class="a" style="font-size: 30px">通知</a></span>
+        <span><a href="#" onclick="showDiv('div6')" class="a" style="font-size: 30px">知识库</a></span>
+	</div>
+ 
+  </nav>
+  <div id="div1" class="divs">
+	  <h1>公告:</h1>
+	  <ul>
+		 <li> 关于部分小微产品政策，网络服务费收取规则变更通知<br>
+背景：因产品功能改造原因，政策为如下四种类型的网络服务费收取规则进行如下调整：<br>
+①星通宝VIP1.0<br>
+②星通宝VIP1.0升级版<br>
+③星通宝VIP1.0定制版V1/V2V/V3，<br>
+④2019年陆POS、2019年小陆<br>
+原规则：商户首笔交易之日起至第30天免络服务费，第31天起收取一次性取12个月网络服务费；<br>
+现规则：商户首笔交易之日起第一个月免络服务费，第二个月起收取一次性取12个月网络服务费；<br>
+（按自然月计算，如1月31日入网商户，2月1日即需收取网络服务费）
+		  </li>
+	 </ul>
+	  <h3>判断商户/政策网络服务费：</h3>
+	  <img src="img/终端网络服务费.jpg" alt="">
+  </div>
+<div id="div2" class="divs">
+	<div class="daohang">
+	<ul>
+		<li class="menu">终端网络服务费
+			<ul class="submenu">
+				<li><a href="#" onClick="showDiv('T1')">规则通知</a></li>
+				<li><a href="#" onClick="showDiv('T2')">产品功能</a></li>
+			</ul>
+		</li>
+	</ul>
+	</div>
+	<div id="T1" class="divs">
+		<ul>
+		  <li>2023年10月8日针对2023年3月31日前入网的商户，执行收取99元/台网络服务费;第二次收取99元的商户需满足距离上次收齐99元超过180天;<br>
+涉及产品线：星通宝2018（不含自备）、星通宝2019（不含自备）、陆POS（含陆POS、陆pos定制版）、星收宝<br>
+涉及商户数:传统收单46万多，星收宝17万多</li>
+     <li>新大陆   操作：开机时长按退格键，选择自检-》1.版本，第一页是否有“SNK SUCC”   有这个字段符合<br>
+华智融操作：开机亮屏，连续按【清除】键，进入【系统管理器】，选择【关于】-【关于本机】，往下翻页有一项【NKKEY】，Y表示有银联密钥</li>
+		  
+      </ul>
+	</div>
+	</div>
+<div id="div5" class="divs"> 
+  <ul>
+    <li class="menu">
+      <a href="#" onclick="">终端网络服务费：</a>
+      <ul class="submenu">
+		  <li>2023年10月8日针对2023年3月31日前入网的商户，执行收取99元/台网络服务费;第二次收取99元的商户需满足距离上次收齐99元超过180天;<br>
+涉及产品线：星通宝2018（不含自备）、星通宝2019（不含自备）、陆POS（含陆POS、陆pos定制版）、星收宝<br>
+涉及商户数:传统收单46万多，星收宝17万多</li>
+     <li>新大陆   操作：开机时长按退格键，选择自检-》1.版本，第一页是否有“SNK SUCC”   有这个字段符合<br>
+华智融操作：开机亮屏，连续按【清除】键，进入【系统管理器】，选择【关于】-【关于本机】，往下翻页有一项【NKKEY】，Y表示有银联密钥</li>
+		  
+      </ul>
+    </li>	
+    <li class="menu">
+      <a href="#" onclick="">一机一码：</a>
+      <ul class="submenu">
+        <li>小微商户补充材料分两种情况：<br>
+如果按小微商户补充材料，目前暂时还不会变成一机一码，后续根据公司决策调整走<br>
+如果按标准商户补充材料(营业执照认证)，是会变成一机一码，且商户交易名称会变成上传的商户名称</li>
+      </ul>
+    </li>
+	  <li class="menu">
+		   <a href="#" onclick="">微信认证：</a>
+      <ul class="submenu">
+        <li><a href="img/微信认证/属地群微信认证.jpg" target="_blank">属地群微信认证流程</a></li>
+        <li>
+			在确认微信子商户号时，如果出现以下报错信息：“商户号商户全称与当前商家名称“***”<a id="buyizhi">不一致</a>，无法进行确认。”
+			<img id="myImage" src="img/微信认证/认证不一致.jpg" alt="预览图片"><br>
+  可以参考以下处理方法：<br>
+1、首先，根据报错中的 “当前商家名称“***””，确定商户目前所使用的主体类型。如果商家_XXX 则表示使用的是小微主体；如果是其他格式，比如张三小吃店或李四贸易有限公司，则表示使用的是营业执照主体。<br>
+
+2、检查商户后台记录的主体类型是否与确认子商户号时使用的主体类型一致。如果不一致，可以引导使用“微信支付商家注册”小程序进行注册或更换正确的主体类型，然后再次进行关联。<br>
+
+3、如果确认主体类型一致，但仍然出现报错信息，请核实进件填写的商户名称（在星POS中为商户注册名）是否存在错别字或遗漏，导致与营业执照上的名称不一致情况。例如：<br>
+福州市张三小吃店<br>
+福州张三小吃店（漏掉了“市”）<br>
+毫米科技有限公司<br>
+亳米科技有限公司（存在错别字）</li>
+        
+      </ul>
+    </li>
+	   <li class="menu">
+		   <a href="#" onclick="">其他</a>
+      <ul class="submenu">
+        <li><a style="color: #3BD4ED">产品对接人:</a><br><img src="img/产品对接人.jpg" alt="产品对接人" style="width: 600px;height: auto"></li>
+        <li><h3>分期码：</h3>
+			“分期码”是支付宝与国通联合开发，供消费者使用花呗分期以及银行卡分期的专属支付码牌，消费者通过扫描分期码进行的花呗分期和信用卡分期交易，能够享受专属分期活动。分期码只支持支付宝APP扫码支付。<br>
+分期码的交易不影响合作伙伴现有收单政策。分期码码牌将由支付宝负责制作与邮寄，分期码印刷时已经与商户绑定，码牌收到后可立即进行交易。<br><br>
+<a style="color: red">星驿付分期码交易目前是有给到服务商奖励，t+2月结算</a><br>
+         </li>
+        <li>Submenu 6</li>
+      </ul>
+    </li>
+  </ul>
+	</div>
+<div id="div6" class="divs">
+		<ul>产品运营：
+			<ol>
+				<a class="zhis" href="https://k2ncseg540.feishu.cn/wiki/wikcnj6gekFYuMxbYnGbKMhJDag">1.B端运营知识库</a>
+			</ol>
+			<ol>
+				<a class="zhis" href="文档/业务/小微常见问题.pdf" target="_blank">2.小微常见问题</a>
+			</ol>
+		</ul>
+		<ul>终端文档：
+			<ol><a class="zhis" href="文档/终端/传统终端常见问题处理.pdf"  target="_blank">1.终端常见问题</a></ol>
+			<ol><a class="zhis" href="文档/终端/ME70产品手册（星驿付).pdf"  target="_blank">2.ME70产品操作手册</a></ol>
+			<ol><a class="zhis" href="https://alidocs.dingtalk.com/i/nodes/R1zknDm0WR3evX0GT10yGdmaVBQEx5rG?utm_scene=team_space"  target="_blank">3.终端菜单表及终端介绍</a></ol>
+			<ol><a class="zhis" href="https://alidocs.dingtalk.com/i/nodes/dQPGYqjpJYg0knyMu365w52BWakx1Z5N?utm_scene=team_space"  target="_blank">4.平台操作手册</a></ol>
+			<ol>
+				<a class="zhis" href="https://drive.weixin.qq.com/s?k=ADMAVgf4AAg2801r9I"  target="_blank">5.终端返厂流程</a><br><br>
+				<a>证通的售后地址： 广东省深圳市光明区凤凰街道尚智科技园1B栋1406  郭浩武  13824220319</a>
+            </ol>
+		</ul>
+	</div>
+
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
