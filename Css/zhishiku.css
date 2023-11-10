@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* CSS Document */
+.menu {
+      display: flex;
+    }
+.mume a{
+	color: #000000;
+	text-decoration:none;
+}
+dt{
+
+	background-color: #A7A7A7;
+	border: 2px solid #000000;
+}
+li{
+	padding: 6px 0px;
+}
+.sumer{
+	display: none;
+}
+.daohang{
+	float: left;
+	width: 13%;
+}
+.main{
+	float: right;
+	width: 85%;
+	overflow:auto;
+	height: 92.5vh;
+}
+.zsk{
+	display: none;
+}
+.zsk a{
+	color: #000000;
+	text-decoration:none;
+}
+.column {
+		padding: 6px 0px;
+	    margin: 2px;
+	    text-align: center;
+        cursor: pointer;
+        }

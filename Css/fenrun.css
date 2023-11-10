@@ -1,0 +1,59 @@
+@charset "utf-8";
+/* CSS Document */
+.menu {
+      display: flex;
+    }
+.sumer{
+	display: none;
+}
+.hender{
+	background-color: #B9B8B8;
+	height:5vh;
+}
+.daohang{
+	float: left;
+	width: 12%;
+	background-color:#A5E1F7;
+	height: 92.8vh;
+}	
+.daohang a{
+	color: #000000;
+	text-decoration:none;
+}
+.neirong{
+	float: right;
+	width: 87%;
+	height: 92.8vh;
+	overflow:auto;
+	
+}
+li{
+	font-weight: bold;
+}
+dt{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 5px 5px;
+	background-color: aliceblue;
+	border: 2px solid black;
+}
+.fenrun{
+	display:none;
+}
+
+.column {
+    cursor: pointer;
+  }
+.selected {
+    background-color:#AFAAAB;
+  }
+ol{
+	padding-top: 10px;
+}
+#T1 a{
+	color: #C55963;
+}
+.th{
+	font-weight: 100px;
+	color: red;
+}

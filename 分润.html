@@ -1,0 +1,192 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>分润</title>
+	<link rel="stylesheet" type="text/css" href="Css/fenrun.css">
+</head>
+<body>
+	<div class="hender"  ><h2>分润相关问题&nbsp;&nbsp;<a href="index.html" style="text-decoration: none; color: #000000; font-size: 15px;">返回首页</a></h2> </div>
+	<div class="quanju">
+		<div class="daohang">
+			 <ul>
+			  <li class="mume"><h3>服务商分润</h3>
+				  <ul class="sumer">
+					 <dt ><a href="#" onclick="showDiv('T1', 'fenrun'); addBackground(event)" class="column">月结收益类</a></dt>
+					 <dt ><a href="#" onclick="showDiv('T2', 'fenrun'); addBackground(event)" class="column">日结收益类</a></dt>
+				  </ul>
+			  </li>
+			  <li class="mume"><h3>服务商奖励</h3>
+				  <ul class="sumer">
+					 <dt><a href="#" onclick="showDiv('J1', 'fenrun'); addBackground(event)" class="column">网络服务费费奖励</a></dt>
+					 <dt><a href="#" onclick="showDiv('T1', 'fenrun'); addBackground(event)" class="column">调价分成奖励</a></dt>
+					 <dt><a href="#" onclick="showDiv('T1', 'fenrun'); addBackground(event)" class="column">结算价成本差奖励</a></dt>
+					 <dt><a href="#" onclick="showDiv('T1', 'fenrun'); addBackground(event)" class="column">微信/支付包奖励</a></dt>
+				  </ul>
+			  </li>
+			  <li class="mume"><h3>服务商返现</h3>
+				  <ul class="sumer">
+					 <dt><a href="#" onclick="showDiv('T1', 'fenrun'); addBackground(event)" class="column">日结返现</a></dt>
+	                 <dt><a href="#" onclick="showDiv('T1', 'fenrun'); addBackground(event)" class="column">月结返现</a></dt>
+				  </ul>
+			  </li>
+			  <li class="mume"><h3>服务商欠款</h3>
+				  <ul class="sumer">
+					 <dt><a href="#" onclick="showDiv('Q1', 'fenrun'); addBackground(event)" class="column">常见问题</a></dt>
+	                 <dt><a href="#" onclick="showDiv('Q2', 'fenrun'); addBackground(event)" class="column">服务商查询</a></dt>
+					 <dt><a href="#" onclick="showDiv('T1', 'fenrun'); addBackground(event)" class="column">运营查询</a></dt>
+				  </ul>
+			  </li>
+		  </ul>
+		</div>
+		<div class="neirong">
+			<div id="T1" class="fenrun">
+				<h1>月结分润知识点：</h1>
+				<h2>一、为什么会有月结分润</h2>
+				<ul>
+					<ol><a>1.服务商早期政策没有做日结；</a><br>
+       例：传统收单平台（18年之前的星通宝政策）<br>
+            判断方式：《<a href="http://192.168.150.188:8092/posm/login.jsp" class="pingtai" target="_blank">收单平台</a>》-运营管理- 代理商管理-代理商信息管理_查看/服务商日结分润信息_运营；<br>
+            通过该菜单判断服务商的平台开立时间以及日结维护情况，若日结分润信息菜单查询不到数据，则说明服务商没有相关日结分润政策
+					</ol>
+                  <ol><a>2.服务商日结分润被关闭</a><br>
+		              可通《<a href="http://192.168.40.221:8773/login.jsp" target="_blank"> 清结算平台</a>》-代理商管理-挂起总表_查询 菜单核实服务商日结关闭情况
+					</ol>
+				<ol><a>3.服务商成本有被调整过</a><br>
+					可通过《<a href="http://192.168.150.108:18094/web_posm/x-xy-admin/index.html" target="_blank">超级POSM平台</a>》-综合管理-运营管理-服务商信息变更审核-服务商结算成本变更审核 菜单查询是否有变更记录<br>
+					服务商日结成本变更是次日生效，但我司计算当月的分润金额时是按照生效后的成本进行结算，因此会导致服务商有月结收益。<br>
+					例：<br>
+					15日申请一级变更成本通过，则16日成本按照变更后的成本结算， 在次月计算分润数据中1-15日的交易也会按照新的成本结算，这部分的收益与日结的差价即为月结收益；
+
+				</ol>
+				</ul>
+             <h2>二、月结分润如何结算</h2>
+				<ul>
+					<ol>每月15-26号为我司付款周期， 在付款周期内对于满足条件的服务商会进行付款，若服务商在付款周期内未满足付款条件，会在当月月底最后一个工作日补付一次</ol>
+					<ol><h4 style="color: red">付款条件排查方式：</h4>
+					    <p>1.判断当前是否是在付款周期内<br>
+							2.判断服务商是否存在欠票；查询菜单：<a href="http://192.168.150.211:7090/login.jsp" target="_blank">星驿秘书管理平台</a>-运营管理-代理商欠票统计(运营)/代理商欠票导入<br>
+							3.判断服务商是否被挂起；查询菜单：<a href="http://192.168.40.221:8773/login.jsp" target="_blank"> 清结算平台</a>-代理商分润管理-挂起总表-查询<br>
+							4.判断服务商账户是否有维护； 查询菜单：<a href="http://192.168.40.221:8773/login.jsp" target="_blank"> 清结算平台</a>-代理商分润管理-客服查询<br>
+							<a href="https://alidocs.dingtalk.com/i/nodes/ydxXB52LJq7lEvZpumogE9goWqjMp697?utm_scene=team_space" target="_blank">平台使用手册</a>
+						</p>
+					</ol>
+				</ul>
+             <h2>三、月结分润怎么查看明细，如何给下级结算</h2>
+				<ul>
+					<ol><a>1.月结收益这部分结算没有明细</a></ol>
+					<ol>若是需要给下级结算，建议通过历史交易进行结算。<br>
+						根据服务商没有正常日结结算的时间点去导出相应的历史交易<br>
+						计算方式：<br>
+						分润=手续费-成本<br>
+						&nbsp;&nbsp;&nbsp;手续费=交易金额*商户费率<br>
+						&nbsp;&nbsp;&nbsp;成本=交易金额*代理商结算成本
+					</ol>
+				</ul>
+				<h2>四、各业务产品当月分润数据查询方式</h2>
+				<ul>
+					<ol>
+						<h3>传统小微：</h3>
+						1.当月分润明细可通过《信息化平台》-综合管理-数据管理-收益-月结分润明细菜单进行查询（该菜单可以查询近一年的分润明细；<a href="文档/月结分润明细.xlsx" target="_blank">案例</a>&nbsp;&nbsp;&nbsp;<a href="#">月结分润明细数据字段说明</a>）<br>
+						2.当月分润汇总数据可通过《信息化平台》-综合管理-数据管理-收益-分润确认菜单进行查询当月各平台的分润合计数据<br>
+						3.日结分润数据可通过《信息化平台》-综合管理-数据管理-收益-服务商秒结明细菜单进行查询（秒结明细仅支持查询近90天的数据，且需注意本级服务商只能看到自身收益及下级总收益）<br>
+						4.下级日结的收益可通过《信息化平台》-综合管理-数据管理-收益-下级日结收益查询
+					</ol>
+					<ol>
+						<h3>星驿付：</h3>
+						1.当月分润明细可通过《信息化平台》-综合管理-数据管理-月结分润明细菜单进行查询（该菜单可以查询近一年的分润明细；<a href="文档/月结分润明细.xlsx" target="_blank">案例</a>&nbsp;&nbsp;&nbsp;<a href="#">月结分润明细数据字段说明</a>）<br>
+						2.当月分润汇总数据可通过《信息化平台》-综合管理-数据管理-收益-分润确认（星驿付）菜单进行查询当月各平台的分润合计数据<br>
+						3.日结分润和下级日结收益同传统小微
+						
+					</ol>
+					<ol>
+						<h3>星POS：</h3>
+						1.当月分润明细可通过星POS后台-收单运营管理-报表下载菜单查看一级分润汇总表<br>
+						2.单月分润汇总数据可通过星POS后台-收单运营管理-报表下载菜单查看分润审批表
+						
+					</ol>
+				</ul>
+			</div>
+			<div id="T2" class="fenrun">
+				<h1>日结分润知识点：</h1>
+				<h3>一、日结分润如何结算规则</h3>
+				<ul>
+					<ol>1.日结收益通过星驿秘书进行结算，当天的交易在星驿秘书首页会显示今日预计收益，次日会结算到秘书余额<br>
+						2.下级秘书到账余额吗，是扣除过税点
+					</ol>
+				</ul>
+				<h3>二、日结分润未收到排查处理流程</h3>
+				<ul>
+					<ol>1.核实情况是一级未收到还是所属未收到分润</ol>
+<ol>2.核实对应服务商及上级服务商日结状态是否为开启状态（分润是层层结算， 若一级服务商日结是关闭的则子级服务商也无法收到分润）</ol>
+<ol>3.查询当日交易的商户是什么活动的商户，看对应服务商是否有配置对应活动的日结分润政策（一级由我司配置，子级均由上级进行配置）</ol>
+<ol>4.查询当日交易的商户是否是该代理明细，若非该代理名下，确认上下级结算价是否一致，若一致收益结算为下级服务商；
+注意：传统小微商户若是有参与调价，服务商结算成本需加上调价部分在进行计算分润
+					</ol>
+				</ul>
+				</div>
+			<div id="J1" class="fenrun">
+				<h1>网路服务费奖励：</h1>
+				<h3>一、网络服务费结算规则</h3>
+				<ul>
+					<ol>以月结形式月结一级对公账户<br>
+					</ol>
+					<ol>
+						<table border="1">
+							<tr>
+								<th>产品名称</th>
+								<th>传统小微</th>
+								<th>星POS</th>
+								<th>星驿付</th>
+							</tr>
+							<tr>
+								<th>是否有分成</th>
+								<th class="th">是</th>
+								<th class="th">否</th>
+								<th class="th">部分服务商</th>
+							</tr>
+							<tr>
+								<th>数据查询</th>
+								<th class="th"><a href="https://www.kdocs.cn/l/caP3ok5ZSpUb" target="_blank">奖励明细表</a></th>
+								<th class="th">/</th>
+								<th class="th"><a href="https://pub.kdocs.cn/t/tyXWPn22q8CDPsT" target="_blank">星驿付奖励明细</a></th>
+							</tr>
+						</table>
+					</ol>
+				</ul>
+				<h3>二、相关问题处理思路</h3>
+				<ul>	
+					<ol><a>1.服务商咨询网络服务费收取明细？</a><br>
+						<p>传统小微：星通宝、陆POS、小陆、小陆20产品通过代理后台-终端管理-终端网络服务费缴纳明细菜单查询<br>
+						小陆21、陆易付、稳定版等小陆20之后的政策通过代理商后台-商户管理-商户网络服务费缴纳明细菜单查询<br><br>
+						   星驿付：代理商管理-交易管理-历史交易流水速查
+						</p>
+		
+					</ol>
+				</ul>
+				</div>
+			<div id="Q2" class="fenrun">
+				<h1>欠款常见问题：</h1>
+				<h3>一、查询服务商查询自身欠款及还款明细</h3>
+                <h3>服务商：</h3>
+                 <ol type="1">
+					 <li><h4>查询当前剩余欠款</h4><br>
+					 查询路径：【信息化平台】-【综合管理】-【数据管理】-【欠款】-【服务商欠款明细】<br>
+					<a href="img/分润/101.jpg" target="_blank"><img src="img/分润/101.jpg" alt="欠款明细" style="height: 15vh; width: auto"/><br></a>
+                     服务商可通过此页面查看剩余待还金额
+					 </li>
+					 <li><h4>查询欠款还款来源：</h4><br>
+					  查询路径：【信息化平台】-【综合管理】-【数据管理】-【欠款】-【服务商欠款明细】<br>
+				    <a href="img/分润/102.jpg" target="_blank"><img src="img/分润/102.jpg" alt="欠款明细" style="height: 15vh; width: auto"/><br></a>
+						 1.输入欠款流水号或欠款名称，可查询该笔欠款或该类型欠款的全部还款情况<br>
+						 2.若需查询当月收益抵扣那些欠款，可筛选还款日期，需注意日结抵扣部分需筛选，还款时间为当月；月结收益抵扣部分需筛选还款时间为次月；&nbsp;&nbsp;例：当前需查询10月份分润一共抵扣了那些欠款，需筛选10.1-10.31日结抵扣部分以及11.1-11.31月结收益抵扣部分，两部分数据合计；
+					 </li>
+					 
+				 </ol>
+			</div>
+		</div>
+	</div>
+<script src="JS/fenrun.js"></script>
+</body>
+</html>
+
