@@ -4,3 +4,10 @@
 	height: 92.8vh;
 	overflow:auto;
 }
+h4{
+	color: #ED6D46;
+	text-indent: 1em;
+}
+p{
+	text-indent: 3em;
+}

@@ -27,3 +27,6 @@ function showDiv(divId, className) {
     const selectedDiv = document.getElementById(divId);
     selectedDiv.style.display = 'block';
 }
+function goBack() {
+  window.history.back();
+}

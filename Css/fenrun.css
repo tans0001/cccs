@@ -27,8 +27,14 @@
 	overflow:auto;
 	
 }
+ul{
+	list-style-type: none;
+}
 li{
 	font-weight: bold;
+}
+#J2 li{
+	padding-top: 30px;
 }
 dt{
 	margin-top: 10px;
