@@ -1,19 +1,23 @@
 @charset "utf-8";
 /* CSS Document */
-.menu {
-      display: flex;
-    }
+body{
+	background-color: #a4c9cc;
+}
+.mume{
+    background-color:#D2DDB9; 
+	border: 2px solid #000000;
+}
 .mume a{
 	color: #000000;
 	text-decoration:none;
 }
 dt{
 
-	background-color: #A7A7A7;
+	background-color: #A5B2A5;
 	border: 2px solid #000000;
 }
 li{
-	padding: 6px 0px;
+	margin: 16px 0px;
 }
 .sumer{
 	display: none;
