@@ -14,12 +14,10 @@ menus.forEach((menu) => {
 });
 function addBackground(event) {
     var columns = document.getElementsByClassName('column');
-
     // 移除所有列的选中状态
     for (var i = 0; i < columns.length; i++) {
       columns[i].classList.remove('selected');
     }
-
     // 添加选中样式到当前点击的列
     var clickedColumn = event.target;
     clickedColumn.classList.add('selected');
