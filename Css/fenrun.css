@@ -36,19 +36,17 @@ li{
 #J2 li{
 	padding-top: 30px;
 }
-#sumer li{
-	margin-top: 10px;
-	margin-bottom: 10px;
-	padding: 5px 5px;
-	background-color: aliceblue;
-	border: 2px solid black;
-}
 .fenrun{
 	display:none;
 }
 
 .column {
-    cursor: pointer;
+    cursor: pointe;
+    margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 5px 5px;
+	background-color: aliceblue;
+	border: 2px solid black;
   }
 .selected {
     background-color:#AFAAAB;
