@@ -1,4 +1,16 @@
 // JavaScript Document
+function validatePassword() {
+      var password = document.getElementById("password").value;
+
+      // 在这里进行密码验证逻辑，例如与预设密码进行比较
+      if (password === "1234") {
+        document.getElementById("passwordPrompt").style.display = "none"; // 隐藏密码输入框和按钮
+        document.querySelector(".quanju").style.display = "block"; // 显示内容
+      } else {
+        alert("密码错误，请重新输入"); // 密码验证失败，显示错误提示
+      }
+    }
+
 const menus = document.querySelectorAll('.mume')
 // 遍历每个菜单项，添加点击事件处理程序
 menus.forEach((menu) => {
