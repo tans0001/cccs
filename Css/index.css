@@ -3,6 +3,7 @@
 .maid{
 	height: 92.8vh;
 	overflow:auto;
+	padding-left: 20px;
 }
 h4{
 	color: #ED6D46;
