@@ -19,7 +19,8 @@ li{
 	background-color:#E6F1F7;
 }
 p{
-	text-indent: 0em;
+	line-height: 1.6;
+	padding-top: 20px;
 }
 .xx a{
 	color:#000000;
