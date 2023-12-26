@@ -1,5 +1,11 @@
 @charset "utf-8";
 /* CSS Document */
+.bodder{
+	background-color:rgba(173,213,162,1.00);
+}
+.neirong{
+	
+}
 .maid{
 	height: 92.8vh;
 	overflow:auto;
