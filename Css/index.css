@@ -31,8 +31,11 @@ p{
 .xx a{
 	color:#000000;
 }
-.tz{
+.xx{
 	height: 50vh;
+}
+.tz{
+	height: 40vh;
 	float: right;
 	width: 40%;
 }
