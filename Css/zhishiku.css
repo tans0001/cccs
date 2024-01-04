@@ -1,11 +1,12 @@
 @charset "utf-8";
 /* CSS Document */
 body{
-	background-color: #a4c9cc;
+	background-color:#D1E4E7;
 }
 .mume{
-    background-color:#D2DDB9; 
+    background-color:#D3DFAE; 
 	border: 2px solid #000000;
+	padding: 10px 8px;
 }
 .mume a{
 	color: #000000;
@@ -42,6 +43,6 @@ li{
 	    margin: 2px;
 	    text-align: center;
         cursor: pointer;
-        background-color: #A5B2A5;
+        background-color: #E3BD8D	;
 	    border: 2px solid #000000;
         }
