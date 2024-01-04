@@ -13,10 +13,13 @@
 }
 h3{
 	color: red;
+	padding-bottom: 15px;
 }
 h4{
 	color: #ED6D46;
 	text-indent: 0em;
+	padding-bottom: 15px;
+	
 }
 li{
 	list-style-type: none;
