@@ -25,12 +25,13 @@ li{
 	list-style-type: none;
 	margin-bottom: 15px;
 	margin-top: 15px;
-	padding-top: 15px;
-	padding-bottom: 15px;
+
 }
 .maid li{
 	border: 2px solid #000000;
 	background-color:#E6F1F7;
+    padding-top: 15px;
+	padding-bottom: 15px;
 }
 p{
 	line-height: 1.6;
