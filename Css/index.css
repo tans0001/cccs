@@ -11,6 +11,9 @@
 	overflow:auto;
 	padding-left: 20px;
 }
+h3{
+	color: red;
+}
 h4{
 	color: #ED6D46;
 	text-indent: 0em;
